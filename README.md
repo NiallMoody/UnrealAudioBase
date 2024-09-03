@@ -26,9 +26,9 @@ This makes it a little difficult to edit the level/geometry in the editor, so it
 
 # Locations of audio events
 
-Locations for where to find/set the various audio events are listed in the table below.
+Locations for where to find and set the various audio events are listed in the table below.
 
-Where **Location** is set to **Content:** this indicates the event is set on an asset from your Content Browser. Double-click on the asset to open it, then set the sound via the listed **Components Pane** and **Details Pane**.
+Where **Location** is set to **Content:** this indicates the event is set on an asset from your Content Browser. Double-click the asset to open it, then set the sound via the listed **Components Pane** and **Details Pane**.
 
 Where **Location** is set to **Outliner** this indicates the event is set from an object in the scene. Select that object in the Outliner, and set the sound via its **Details Pane**.
 
