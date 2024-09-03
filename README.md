@@ -1,6 +1,4 @@
-# UnrealAudioBase
-A simple third person puzzle project intended as a base for exploring audio implementation in Unreal.
-
+# Unreal Audio Base
 ![Editor screenshot of the project](https://raw.githubusercontent.com/NiallMoody/UnrealAudioBase/main/Docs/Screenshot.jpg)
 
 This project was created as a base for students to explore audio implementation in Unreal. I currently use it in labs for my **CMP407: Audio Programming** module at [Abertay University](https://www.abertay.ac.uk/).
@@ -16,3 +14,10 @@ As it is intended as a base for audio implementation, it features the following:
 - A small pool of water for experimenting with sonic underwater effects
 
 Note that the 'puzzles' are not particularly challenging. This may change in future, see the [ToDo list](https://github.com/NiallMoody/UnrealAudioBase/blob/main/ToDo.md).
+
+# Additional notes about the project
+As it's a third-person game, most materials make use of a masking shader that will cut out geometry around the player character so that the player has a clearer view of the level.
+
+This makes it a little difficult to edit the level/geometry in the editor, so it is disabled by default. It can be enabled via the **MPC_Masking_Toggle** Material Parameter Collection:
+
+![Screenshot of the location of MPC_Masking_Toggle](URL GOES HERE)
