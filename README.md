@@ -5,6 +5,8 @@ A simple third person puzzle project intended as a base for exploring audio impl
 
 This project was created as a base for students to explore audio implementation in Unreal. I currently use it in labs for my **CMP407: Audio Programming** module at [Abertay University](https://www.abertay.ac.uk/).
 
+Developed in **Unreal 5.4.3**.
+
 As it is intended as a base for audio implementation, it features the following:
 
 - Different surfaces to walk on/in (concrete, grass, water)
