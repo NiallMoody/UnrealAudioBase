@@ -18,6 +18,6 @@ Note that the 'puzzles' are not particularly challenging. This may change in fut
 # Additional notes about the project
 As it's a third-person game, most materials make use of a masking shader that will cut out geometry around the player character so that the player has a clearer view of the level.
 
-This makes it a little difficult to edit the level/geometry in the editor, so it is disabled by default. It can be enabled via the **MPC_Masking_Toggle** Material Parameter Collection:
+This makes it a little difficult to edit the level/geometry in the editor, so it is disabled (`0.0`) by default. It can be enabled (`1.0`) via the **MPC_Masking_Toggle** Material Parameter Collection:
 
 ![Screenshot of the location of MPC_Masking_Toggle](https://raw.githubusercontent.com/NiallMoody/UnrealAudioBase/main/Docs/MaskingToggleLocation.png)
