@@ -1,6 +1,13 @@
 ﻿# Unreal Audio Base
 ![Editor screenshot of the project](https://raw.githubusercontent.com/NiallMoody/UnrealAudioBase/main/Docs/Screenshot.jpg)
 
+- [Description](#description)
+- [Audio-relevant features](#audio-relevant-features)
+- [Additional notes about the project](#additional-notes-about-the-project)
+- [Locations of audio events](#locations-of-audio-events)
+
+# Description
+
 This project was created as a base for anyone wanting to explore audio implementation in Unreal. It includes no audio itself, but it does include a number of elements that require specific attention from a sound designer/composer/audio programmer. I currently use it in labs for my **CMP407: Audio Programming** module at [Abertay University](https://www.abertay.ac.uk/).
 
 Developed in **Unreal 5.4.3**
@@ -28,9 +35,9 @@ This makes it a little difficult to edit the level/geometry in the editor, so it
 
 Locations for where to find and set the various audio events are listed in the table below.
 
-Where **Location** is set to **Content:** this indicates the event is set on an asset from your Content Browser. Double-click the asset to open it, then set the sound via the listed **Components Pane** and **Details Pane**.
+Where **Location** is set to **Content:** this indicates the event is set on an asset from your Content Browser. Double-click the asset to open it, then set the sound via the listed **Components Pane** and **Details Pane** values.
 
-Where **Location** is set to **Outliner** this indicates the event is set from an object in the scene. Select that object in the Outliner, and set the sound via its **Details Pane**.
+Where **Location** is set to **Outliner:** this indicates the event is set from an object in the scene. Select that object in the Outliner, and set the sound via its **Details Pane**.
 
 |Event|Location|Where to set|
 |-----|--------|------------|
