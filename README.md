@@ -1,9 +1,9 @@
 # Unreal Audio Base
 ![Editor screenshot of the project](https://raw.githubusercontent.com/NiallMoody/UnrealAudioBase/main/Docs/Screenshot.jpg)
 
-This project was created as a base for students to explore audio implementation in Unreal. I currently use it in labs for my **CMP407: Audio Programming** module at [Abertay University](https://www.abertay.ac.uk/).
+This project was created as a base for anyone wanting to explore audio implementation in Unreal. It includes no audio itself, but it does include a number of elements that require specific attention from a sound designer/composer/audio programmer. I currently use it in labs for my **CMP407: Audio Programming** module at [Abertay University](https://www.abertay.ac.uk/).
 
-Developed in **Unreal 5.4.3**.
+Developed in **Unreal 5.4.3**
 
 As it is intended as a base for audio implementation, it features the following:
 
