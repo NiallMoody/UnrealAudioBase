@@ -28,13 +28,17 @@ This makes it a little difficult to edit the level/geometry in the editor, so it
 
 Locations for where to find/set the various audio events are listed in the table below.
 
+Where **Location** is set to **Content:** this indicates the event is set on an asset from your Content Browser. Double-click on the asset to open it, then set the sound via the listed **Components Pane** and **Details Pane**.
+
+Where **Location** is set to **Outliner** this indicates the event is set from an object in the scene. Select that object in the Outliner, and set the sound via its **Details Pane**.
+
 |Event|Location|Where to set|
 |-----|--------|------------|
 |Player Footstep|**Content:** AbertayUnrealBase → Characters → Mannequins → Animations → Quinn → MF_Run_Fwd|For triggering sounds from an animation timeline, see [this video](https://www.youtube.com/watch?v=2Su20IGg0tw)|
 |Player Landed|**Content:** AbertayUnrealBase → ThirdPerson → Blueprints → BP_ThirdPersonCharacter|**Components Pane:** Variables → LandedSound<br/>**Details Pane:** Default Value → Landed Sound|
 |Player Water Splash|**Outliner:** ThirdPersonMap → Areas → Garden → GardenPondTrigger|**Details Pane:** Default → Sound|
-|Regular Button Press|**Content:** AbertayUnrealBase → Blueprints → BP_IndividualButton|**Components Pane:** Variables → PressSound; **Details Pane:** Default Value → Press Sound|
-|Regular Button Reset|**Content:** AbertayUnrealBase → Blueprints → BP_IndividualButton|**Components Pane:** Variables → ResetSound; **Details Pane:** Default Value → Reset Sound|
+|Regular Button Press|**Content:** AbertayUnrealBase → Blueprints → BP_IndividualButton|**Components Pane:** Variables → PressSound<br/>**Details Pane:** Default Value → Press Sound|
+|Regular Button Reset|**Content:** AbertayUnrealBase → Blueprints → BP_IndividualButton|**Components Pane:** Variables → ResetSound<br/>**Details Pane:** Default Value → Reset Sound|
 |Puzzle Button Press (Garden)|**Outliner:** ThirdPersonMap → Areas → Garden → Buttons → GardenPuzzleButton|**Details Pane:** Sounds → Press Sound|
 |Puzzle Button Release (Garden)|**Outliner:** ThirdPersonMap → Areas → Garden → Buttons → GardenPuzzleButton|**Details Pane:** Sounds → Release Sound|
 |Puzzle Solved (Garden)|**Outliner:** ThirdPersonMap → Areas → Garden → Buttons → GardenPuzzleButton|**Details Pane:** Sounds → Puzzle Solved|
