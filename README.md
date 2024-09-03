@@ -20,4 +20,4 @@ As it's a third-person game, most materials make use of a masking shader that wi
 
 This makes it a little difficult to edit the level/geometry in the editor, so it is disabled by default. It can be enabled via the **MPC_Masking_Toggle** Material Parameter Collection:
 
-![Screenshot of the location of MPC_Masking_Toggle](URL GOES HERE)
+![Screenshot of the location of MPC_Masking_Toggle](https://raw.githubusercontent.com/NiallMoody/UnrealAudioBase/main/Docs/MaskingToggleLocation.png)
