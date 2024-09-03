@@ -31,7 +31,7 @@ Locations for where to find/set the various audio events are listed in the table
 |Event|Location|Where to set|
 |-----|--------|------------|
 |Player Footstep|**Content:** AbertayUnrealBase → Characters → Mannequins → Animations → Quinn → MF_Run_Fwd|For triggering sounds from an animation timeline, see [this video](https://www.youtube.com/watch?v=2Su20IGg0tw)|
-|Player Landed|**Content:** AbertayUnrealBase → ThirdPerson → Blueprints → BP_ThirdPersonCharacter|**Components Pane:** Variables → LandedSound; **Details Pane:** Default Value → Landed Sound|
+|Player Landed|**Content:** AbertayUnrealBase → ThirdPerson → Blueprints → BP_ThirdPersonCharacter|**Components Pane:** Variables → LandedSound<br/>**Details Pane:** Default Value → Landed Sound|
 |Player Water Splash|**Outliner:** ThirdPersonMap → Areas → Garden → GardenPondTrigger|**Details Pane:** Default → Sound|
 |Regular Button Press|**Content:** AbertayUnrealBase → Blueprints → BP_IndividualButton|**Components Pane:** Variables → PressSound; **Details Pane:** Default Value → Press Sound|
 |Regular Button Reset|**Content:** AbertayUnrealBase → Blueprints → BP_IndividualButton|**Components Pane:** Variables → ResetSound; **Details Pane:** Default Value → Reset Sound|
