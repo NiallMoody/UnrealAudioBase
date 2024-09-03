@@ -8,11 +8,11 @@
 
 # Description
 
-This project was created as a base for anyone wanting to explore audio implementation in Unreal. It includes no audio itself, but it does include a number of elements that require specific attention from sound designers, composers, and audio programmers. I currently use it in labs for my **CMP407: Audio Programming** module at [Abertay University](https://www.abertay.ac.uk/).
+This project was created as a base for anyone wanting to explore audio implementation in Unreal. It includes no audio itself, but it does include a number of elements that require specific attention from game audio implementers. I currently use it in labs for my **CMP407: Audio Programming** module at [Abertay University](https://www.abertay.ac.uk/).
 
 Developed in **Unreal 5.4.3**
 
-Note that the 'puzzles' are not particularly challenging. This may change in future, see the [ToDo list](https://github.com/NiallMoody/UnrealAudioBase/blob/main/ToDo.md).
+Note that the 'puzzles' are not particularly challenging. This will hopefully change in future, see the [ToDo list](https://github.com/NiallMoody/UnrealAudioBase/blob/main/ToDo.md).
 
 # Audio-relevant features
 
@@ -22,7 +22,7 @@ As it is intended as a base for audio implementation, the project includes the f
 - Different shapes and sizes of enclosed spaces (with expectations of their own acoustic characteristics, i.e. reverb)
 - Unreal's default third-person model, for timeline-based footstep triggering
 - A small variety of buttons and event triggers
-- A small pool of water for experimenting with sonic underwater effects
+- A small pool of water for experimenting with underwater audio effects
 
 # Additional notes about the project
 As it's a third-person game, most materials make use of a masking shader that will cut out geometry around the player character so that the player has a clearer view of the level.
@@ -35,7 +35,7 @@ This makes it a little difficult to edit the level/geometry in the editor, so it
 
 Locations for where to find and set the various audio events are listed in the table below.
 
-Where **Location** is set to **Content:** this indicates the event is set on an asset from your Content Browser. Double-click the asset to open it, then set the sound via the listed **Components Pane** and **Details Pane** values.
+Where **Location** is set to **Content:** this indicates the event is set on an asset from your Content Browser. Double-click the asset to edit it, then set the sound via the listed **Components Pane** and **Details Pane** values.
 
 Where **Location** is set to **Outliner:** this indicates the event is set from an object in the scene. Select that object in the Outliner, and set the sound via its **Details Pane**.
 
